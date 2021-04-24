@@ -59,6 +59,10 @@ body {
     text-align: left;
 }
 
+.text.center {
+    text-align: center;
+}
+
 span.bold {
     font-weight: bold;
 }
@@ -79,4 +83,22 @@ p.--trd-color > span.bold {
     position: relative;
     height: 4rem;
     padding: 0 1rem;
+}
+
+a.link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+p.--scd-color > a.link {
+    color: var(--second-color);
+}
+
+p.--trd-color > a.link {
+    color: var(--third-color);
+}
+
+.reveal .controls {
+    color: #FFFFFF;
 }
