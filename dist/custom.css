@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .back-block {
@@ -48,7 +49,7 @@ body {
     position: absolute;
     top: -3.5rem;
     left: 0;
-    width: 35%;
+    height: 68px;
 }
 
 .text {
@@ -56,4 +57,26 @@ body {
     position: relative;
     font-size: 1.75rem;
     text-align: left;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+p.--scd-color > span.bold {
+    color: var(--second-color);
+}
+
+p.--trd-color > span.bold {
+    color: var(--third-color);
+}
+
+.icons-group {
+    position: relative;
+}
+
+.icons {
+    position: relative;
+    height: 4rem;
+    padding: 0 1rem;
 }
